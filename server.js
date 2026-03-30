@@ -12,7 +12,11 @@ const app = express();
 // Middleware
 app.use(cors({
     origin:"*",
+<<<<<<< HEAD
     credentials:true
+=======
+    credentials: true
+>>>>>>> 6549776ba7362bccce2274ed183e5bedee5fb9ad
 }));
 app.use(express.json());
 
